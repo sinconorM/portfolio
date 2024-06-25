@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Sinconor Mabelane">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Website</title>
 </head>
-<body>
+<!-- style="background-color: rgb(162, 103, 103);" -->
+<body >
    <h1> I am Sinconor Mabelane  </h1>
    <hr>
 
@@ -35,12 +37,45 @@
         <li> JavaScipt</li>
 
     </ul>
+
+    <hr>
+    <h2> Skills and concepts: </h2>
+    <ul> 
+        <li> Object Oriented Programming</li>
+        <li> Data Structures & Algorithms </li>
+        <li> Computer Architecture </li>
+        <li> Concurrency</li>
+        <li> Computer Networks </li>
+        <li> Software Engineering principles</li>
+        <li> Web Development</li>
+
+    </ul>
 </body>
+
 <hr>
 <h2> Contact info: </h2>
 <a href="https://www.linkedin.com/in/sinconor-mabelane-1525a4281" target=_blank title="Go to my LinkedIn Profile">LinkedIn</a>
 <br>
 <br>
 <a href="mailto:sinconormabelane@gmail.com" target=_blank title="Go to my email">Email me</a>
+
+<hr>
+<h2> Do you like this html website I made? </h2>
+<button onclick="showText1()" style="background-color: rgb(65, 246, 65); border-radius: 5px;"> YES</button> 
+
+<p id="yesButton"></p>
+<script>
+    function showText1() {
+        document.getElementById("yesButton").innerHTML = "OK"
+    }
+</script>
+<button onclick="showText2()" style="background-color: rgb(252, 33, 33); border-radius: 5px;"> NO</button>
+
+<p id="noButton"></p>
+<script>
+    function showText2() {
+        document.getElementById("noButton").innerHTML = "Shame on you."
+    }
+</script>
 
 </html>
