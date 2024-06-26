@@ -4,7 +4,7 @@ h1:hover{
 
 body{
     /*background-color: rgb(223, 223, 223);*/
-    background: linear-gradient(to right, skyblue, rgb(109, 221, 111));
+    background: linear-gradient(to right, rgb(230, 230, 230), skyblue);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: sans-serif, "consolas";
@@ -12,7 +12,7 @@ body{
 img{
     border-style: solid;
     border-width: 5px; 
-    border-color: rgb(45, 178, 45);
+    border-color: black;
 }
 img:hover{
     /*animation: myRotation;*/
@@ -41,7 +41,7 @@ button:hover{
     color: white;
 }
 li:hover{
-    color: rgb(52, 52, 52);
+    color: rgb(128, 131, 128);
 }
 #first:hover{
     color: rgb(128, 131, 128);
