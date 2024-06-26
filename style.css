@@ -1,3 +1,7 @@
+h1:hover{
+    text-shadow: 5px 5px 3px gray;
+}
+
 body{
     /*background-color: rgb(223, 223, 223);*/
     background: linear-gradient(to right, skyblue, rgb(109, 221, 111));
@@ -10,9 +14,53 @@ img{
     border-width: 5px; 
     border-color: rgb(45, 178, 45);
 }
+img:hover{
+    /*animation: myRotation;*/
+    animation: myOpacity;
+    animation-duration: 5s;
+}
+@keyframes myRotation {
+    100%{transform: rotateY(360deg);}
+}
+@keyframes myOpacity {
+    50%{opacity: 0;}
+}
 hr{
     border: 2px solid;
 }
 audio{
     margin-left: 30px;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: gray;
+}
+button:hover{
+    color: white;
+}
+li:hover{
+    color: rgb(52, 52, 52);
+}
+#first:hover{
+    color: rgb(128, 131, 128);
+}
+#second:hover{
+    color: rgb(128, 131, 128);
+}
+#third:hover{
+    color: rgb(128, 131, 128);
+}
+#fourth:hover{
+    color: rgb(128, 131, 128);
+}
+#second{
+    transform: translateX(10px);
+}
+#third{
+    transform: translateX(15px);
+}
+#fourth{
+    transform: translateX(22px);
 }
