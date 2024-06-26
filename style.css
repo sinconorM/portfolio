@@ -1,0 +1,18 @@
+body{
+    /*background-color: rgb(223, 223, 223);*/
+    background: linear-gradient(to right, skyblue, rgb(109, 221, 111));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif, "consolas";
+}
+img{
+    border-style: solid;
+    border-width: 5px; 
+    border-color: rgb(45, 178, 45);
+}
+hr{
+    border: 2px solid;
+}
+audio{
+    margin-left: 30px;
+}
