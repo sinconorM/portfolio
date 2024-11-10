@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.b2f849ef.js",
-    "static/js/453.9a8b4015.chunk.js": "/static/js/453.9a8b4015.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.b2f849ef.js.map": "/static/js/main.b2f849ef.js.map",
-    "453.9a8b4015.chunk.js.map": "/static/js/453.9a8b4015.chunk.js.map"
+    "main.css": "/sinconor.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/sinconor.github.io/static/js/main.0c1053fa.js",
+    "static/js/453.9a8b4015.chunk.js": "/sinconor.github.io/static/js/453.9a8b4015.chunk.js",
+    "static/media/logo.svg": "/sinconor.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/sinconor.github.io/index.html",
+    "main.f855e6bc.css.map": "/sinconor.github.io/static/css/main.f855e6bc.css.map",
+    "main.0c1053fa.js.map": "/sinconor.github.io/static/js/main.0c1053fa.js.map",
+    "453.9a8b4015.chunk.js.map": "/sinconor.github.io/static/js/453.9a8b4015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.b2f849ef.js"
+    "static/js/main.0c1053fa.js"
   ]
 }
